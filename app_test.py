@@ -8,7 +8,6 @@ class TestMain(unittest.TestCase):
         random_string_reversed = "gnirts tset ym si sihT"
         self.assertEqual(random_string_reversed, return_backwards_string(random_string))
 
-        # HELLO world
         def test_get_env(self):
             self.assertEqual(os.environ.get("MODE"), get_mode())
 
